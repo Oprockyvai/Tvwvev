@@ -2,18 +2,25 @@ body {
     margin: 0;
     padding: 0;
     background: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 p {
-    font-size: 12px;
-    line-height: 8px;
-    text-align: justify;
-    -webkit-background-size: cover;
+    font-size: 90px;
+    line-height: 80px;
+    font-weight: bold;
+    text-align: center;
+
+    /* IMAGE FILE NAME */
+    background: url("image.jpg") no-repeat center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background: url(image.jpg) no-repeat center;
     background-attachment: fixed;
+
+    /* TEXT IMAGE EFFECT */
     -webkit-background-clip: text;
-    -webkit-text-fill-color: rgb(225, 225, 255, 0);
+    -webkit-text-fill-color: transparent;
 }
